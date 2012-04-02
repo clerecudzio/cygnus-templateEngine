@@ -1,3 +1,4 @@
+
 class CygnusTemplateEngineGrailsPlugin {
     // the plugin version
     def version = "0.1"
@@ -44,6 +45,7 @@ Brief summary/description of the plugin.
 
     def doWithSpring = {
         // TODO Implement runtime spring config (optional)
+
     }
 
     def doWithDynamicMethods = { ctx ->
