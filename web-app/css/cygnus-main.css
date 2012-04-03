@@ -1,17 +1,18 @@
 /* FONT STACK */
-body{
-	height:auto;
+body {
+	height: auto;
 }
+
 body,input,select,textarea {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
 		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 0.8em:
 }
 
-#page-body{
-	width:100%;
-	height:100%;
-	padding:0;
+#page-body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
 }
 /* BASE LAYOUT */
 html {
@@ -20,8 +21,8 @@ html {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa),
 		color-stop(1, #ddd) );
 	background-image: linear-gradient(top, #aaa, #ddd);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=  '#aaaaaa',
-		EndColorStr=  '#dddddd' );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=   '#aaaaaa',
+		EndColorStr=   '#dddddd' );
 	background-repeat: no-repeat;
 	height: 100%;
 	/* change the box model to exclude the padding from the calculation of 100% height (IE8+) */
@@ -75,10 +76,9 @@ body {
 	height: 35px;
 }
 
-#footer{
+#footer {
 	background: #0081ff;
 	color: #000;
-	
 	font-size: 0.8em;
 	padding: 0.1em;
 }
@@ -155,31 +155,16 @@ img {
 	color: #255b17;
 }
 
-#spinner {
-	background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-left: -50px; /* half width of the spinner gif */
-	margin-top: -50px; /* half height of the spinner gif */
-	text-align:center;
-	z-index:1234;
-	overflow: auto;
-	width: 100px; /* width of the spinner gif */
-	height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
-	
-}
 
 .ui-widget-overlay {
-	background:grey;
-    filter: alpha(opacity = 50);
-    left: 0;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
- 
+	background: grey;
+	filter: alpha(opacity =   50);
+	left: 0;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	
 }
-
 
 ul.one-to-many {
 	display: inline-block;
@@ -213,11 +198,8 @@ ul.one-to-many li.add {
 	box-shadow: 0 0 0.25em #b2d1ff;
 }
 
-
-
 .message {
 	background: transparent url(../images/skin/information.png) 0 50%
 		no-repeat;
 	text-indent: 22px;
 }
-

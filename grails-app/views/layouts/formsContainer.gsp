@@ -55,11 +55,17 @@
 		<div id="footer-push"></div>
 	</div>
 	<g:render template="/layouts/footer" />
-	<div id="spinner" style="display: none;">
-			<g:message code="spinner.alt" default="Loading&hellip;" />
-	</div>
 	<g:javascript library="application" />
 	<r:layoutResources />
+			<div id="spinner" title="Loading page" style="display: none;">
+			<p> 
+				<g:message code="spinner.alt" default="Your page is being displayed &hellip;" />
+				<br>
+				<br>
+				<img src="${resource(dir: 'images', file: 'cygnus-formspinner.gif')}" alt="spinner"  />
+				
+			</p>
+		</div>
 
 
 </body>
