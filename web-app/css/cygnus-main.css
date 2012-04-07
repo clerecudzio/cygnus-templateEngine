@@ -203,3 +203,24 @@ ul.one-to-many li.add {
 		no-repeat;
 	text-indent: 22px;
 }
+
+#openError{
+	background-image: url(../images/skin/sorted_desc.gif);
+	background-position: 0.7em center;
+	background-repeat: no-repeat;
+	text-indent: 25px;
+	background-color: #efefef;
+	-moz-box-shadow: 0 0 3px 1px #aaaaaa;
+	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
+	box-shadow: 0 0 3px 1px #aaaaaa;
+	zoom: 1;
+	font-size: 0.9em;
+	width:125px;
+	margin: 0.8em 0 0.3em 0;
+	
+}
+
+#ajaxRequestError{
+	padding:0.5em;
+	
+}

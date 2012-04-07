@@ -26,9 +26,11 @@
 <link rel="stylesheet"
 	href="${resource(dir: 'css', file: 'cygnus-main.css')}" type="text/css">
 <link rel="stylesheet"
-	href="${resource(dir: 'css', file: 'cygnus-search.css')}" type="text/css">
+	href="${resource(dir: 'css', file: 'cygnus-search.css')}"
+	type="text/css">
 <link rel="stylesheet"
-	href="${resource(dir: 'css', file: 'cygnus-forms.css')}" type="text/css">
+	href="${resource(dir: 'css', file: 'cygnus-forms.css')}"
+	type="text/css">
 <link rel="stylesheet"
 	href="${resource(dir: 'css', file: 'cygnus-nav.css')}" type="text/css">
 
@@ -57,15 +59,28 @@
 	<g:render template="/layouts/footer" />
 	<g:javascript library="application" />
 	<r:layoutResources />
-			<div id="spinner" title="Loading page" style="display: none;">
-			<p> 
-				<g:message code="spinner.alt" default="Your page is being displayed &hellip;" />
-				<br>
-				<br>
-				<img src="${resource(dir: 'images', file: 'cygnus-formspinner.gif')}" alt="spinner"  />
-				
-			</p>
+	<div id="spinner" title="Loading page" style="display: none;">
+		<p>
+			<g:message code="spinner.alt"
+				default="Your page is being displayed &hellip;" />
+			<br> <br> <img
+				src="${resource(dir: 'images', file: 'cygnus-formspinner.gif')}"
+				alt="spinner" />
+
+		</p>
+	</div>
+	<div id="ajaxRequestError" title="Ajax request returned an error"
+		style="display: none;">
+		<div class="errorMessage">
+			<h1>
+				<g:message code="cygnus.ajaxError" />
+				<div class="cygnusAjaxErrorRespondText">&nbsp;</div>
+			</h1>
 		</div>
+		<div id="openError">show detail</div>
+		</br>
+		<div id="ajaxError" style="display: none;"></div>
+	</div>
 
 
 </body>
