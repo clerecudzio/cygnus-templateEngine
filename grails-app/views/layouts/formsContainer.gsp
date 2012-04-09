@@ -50,7 +50,6 @@
 	<div id="content-wrapper">
 
 		<g:include controller="generateMenu" params="[pos:'top']" />
-
 		<g:layoutBody />
 
 
