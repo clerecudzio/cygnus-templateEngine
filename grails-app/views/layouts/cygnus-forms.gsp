@@ -21,11 +21,10 @@
 	value="${pageProperty(name:'page.pageEName')}"/>
 </head>
 <body>
-
-	<div id="leftMenu"  style="position:relative; right:0; top:0; ">
+	<div id="leftMenu" >
 	<g:include controller="generateMenu" action="generateOnScreenMenu" params="[pos:'left',menuCode:eName]" />
 	</div>
-	<g:layoutBody />
+		<g:layoutBody />
 
 
 	<g:javascript library="application" />
