@@ -64,6 +64,7 @@ body {
 }
 
 #content-wrapper {
+	position:relative;
 	background: #ffffff;
 	color: #333333;
 	height: auto !important;

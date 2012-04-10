@@ -17,10 +17,14 @@
 <g:javascript library="fgMenuResources" />
 <g:layoutHead />
 <r:layoutResources />
-
+<g:set var="eName"
+	value="${pageProperty(name:'page.pageEName')}"/>
 </head>
 <body>
 
+	<div id="leftMenu"  style="position:relative; right:0; top:0; ">
+	<g:include controller="generateMenu" action="generateOnScreenMenu" params="[pos:'left',menuCode:eName]" />
+	</div>
 	<g:layoutBody />
 
 
